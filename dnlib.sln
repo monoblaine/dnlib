@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dnlib", "src\dnlib.csproj",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples", "Examples\Examples.csproj", "{F27E72B5-C4BD-40BF-AD19-4C8A99B55872}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicKeyHackingTool", "PublicKeyHackingTool\PublicKeyHackingTool.csproj", "{3BB2D0EE-A7EB-4F8C-8EE3-9B3D06EF7AA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,18 @@ Global
 		{F27E72B5-C4BD-40BF-AD19-4C8A99B55872}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{F27E72B5-C4BD-40BF-AD19-4C8A99B55872}.Release|x86.ActiveCfg = Release|Any CPU
 		{F27E72B5-C4BD-40BF-AD19-4C8A99B55872}.Release|x86.Build.0 = Release|Any CPU
+		{3BB2D0EE-A7EB-4F8C-8EE3-9B3D06EF7AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB2D0EE-A7EB-4F8C-8EE3-9B3D06EF7AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB2D0EE-A7EB-4F8C-8EE3-9B3D06EF7AA8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3BB2D0EE-A7EB-4F8C-8EE3-9B3D06EF7AA8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3BB2D0EE-A7EB-4F8C-8EE3-9B3D06EF7AA8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3BB2D0EE-A7EB-4F8C-8EE3-9B3D06EF7AA8}.Debug|x86.Build.0 = Debug|Any CPU
+		{3BB2D0EE-A7EB-4F8C-8EE3-9B3D06EF7AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB2D0EE-A7EB-4F8C-8EE3-9B3D06EF7AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB2D0EE-A7EB-4F8C-8EE3-9B3D06EF7AA8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3BB2D0EE-A7EB-4F8C-8EE3-9B3D06EF7AA8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3BB2D0EE-A7EB-4F8C-8EE3-9B3D06EF7AA8}.Release|x86.ActiveCfg = Release|Any CPU
+		{3BB2D0EE-A7EB-4F8C-8EE3-9B3D06EF7AA8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
