@@ -46,6 +46,7 @@ namespace PublicKeyHackingTool {
         }
 
         private static void _fixExternalReferenceImpl (ModuleDefMD module, AssemblyRef oldAsmRef, AssemblyRef newAsmRef) {
+            // Credit: https://github.com/0xd4d/dnSpy/issues/173#issuecomment-242180559
             foreach (var asmRef in module.GetAssemblyRefs()) {
                 if (_isEqual(asmRef, oldAsmRef)) {
                     asmRef.PublicKeyOrToken = newAsmRef.PublicKeyOrToken;
