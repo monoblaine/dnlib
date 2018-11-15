@@ -49,6 +49,7 @@
     <Compile Include="Config\FixExternalReference.cs" />
     <Compile Include="Config\FixAllAtOnce.cs" />
     <Compile Include="Config\FixSelfReferences.cs" />
+    <Compile Include="Config\GeneralConfig.cs" />
     <Compile Include="Config\IGeneralConfig.cs" />
     <Compile Include="Config\InputModule.cs" />
     <Compile Include="Config\ReferenceAssemblyInfo.cs" />

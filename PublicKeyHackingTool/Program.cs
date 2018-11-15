@@ -26,6 +26,10 @@ namespace PublicKeyHackingTool {
                 case "fix-all":
                     _fixAllAtOnce(JsonConvert.DeserializeObject<FixAllAtOnce>(File.ReadAllText(configFile)));
                     break;
+
+                case "sign-assembly":
+                    _signAssembly(pathToModule: configFile, pathToSnkFile: args[2], outputPath: args[3]);
+                    break;
             }
         }
 
@@ -131,6 +135,13 @@ namespace PublicKeyHackingTool {
                 _fixSelfReferencesImpl(module, oldAsmRef, newAsmRef, attrFilter);
                 _saveModule(module, config);
             }
+        }
+
+        private static void _signAssembly (String pathToModule, String pathToSnkFile, String outputPath) {
+            _saveModule(
+                module: ModuleDefMD.Load(pathToModule),
+                config: new GeneralConfig { OutputPath = outputPath, SnkPath = pathToSnkFile }
+            );
         }
 
         private static Boolean _isEqual (AssemblyRef asmRef, AssemblyRef oldAsmRef) {
